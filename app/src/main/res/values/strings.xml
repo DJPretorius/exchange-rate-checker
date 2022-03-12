@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Exchange Rates</string>
+    <string name="exchange_rate_history">Exchange Rate History</string>
+    <string name="sync_currency_notification_message">Updating available currencies</string>
+    <string name="sync_currency_notification_title">Currency Update</string>
+    <string name="select_a_currency">Select a currency</string>
+    <string name="to">to</string>
+    <string name="equals">=</string>
+    <string name="button_submit">Submit</string>
+</resources>
