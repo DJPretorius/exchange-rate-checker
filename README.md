@@ -26,14 +26,18 @@ The View Model facilitates interactions between the View and the Model and holds
 for easy retrieval.
 
 # Known Shortcomings
-The time series graph sometimes does not display labels on the X and Y axes.
-Time series data is not available for all currency combinations.
+The time series graph sometimes does not display labels on the X and Y axes.<br>
+Time series data is not available for all currency combinations.<br>
 The Exchange Rate is displayed but an amount conversion is not available.
 
 # Building the project.
 
-We use the Fx Market API. Add your `api key` inside the `main/strings.xml` resource file and call it 
-`api_key`. Build the project and install the APK on any Android device supporting SDK 21+
+We use the Fx Market API. Add your `api key` inside the `main/secrets.xml` resource file and call it 
+`api_key`. 
+```xml
+<string name="api_key">YOUR API KEY HERE</string>
+```
+Build the project and install the APK on any Android device supporting SDK 21+
 
 An APK is available on this public Google Drive [Link](https://drive.google.com/file/d/1uSPOYkwQvl4z-3-aZWYZNnj__XC4_z_H/view?usp=sharing)
 
